@@ -4,58 +4,83 @@
   height: 50px;
   width: 900px;
   position: relative;
-  left: 300px;
+  left: 430px;
+  top: 200px;
 }
 .rows {
   display: flex;
 }
 .columns {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid #2c3d55;
   font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 1px;
+  border-radius: 5px;
+}
+.columns:hover {
+  background-color: aquamarine;
+}
+.columns1:hover {
+  background-color: green;
 }
 .columns1 {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid #2c3d55;
   background-color: var(--triple-word);
   font-size: var(--font-size);
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin: 1px;
+  border-radius: 5px;
+  color: white;
 }
 .columns2 {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid #2c3d55;
   background-color: var(--double-letter);
   font-size: var(--font-size);
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin: 1px;
+  border-radius: 5px;
+  color: white;
 }
 .columns3 {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid #2c3d55;
   background-color: var(--double-word);
   font-size: var(--font-size);
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin: 1px;
+  border-radius: 5px;
+  color: white;
 }
 .columns4 {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid #2c3d55;
   background-color: var(--triple-letter);
   font-size: var(--font-size);
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin: 1px;
+  border-radius: 5px;
+  color: white;
 }
 .columns5 {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: var(--width);
+  height: var(--height);
+  border: 1px solid #2c3d55;
   background-color: var(--double-word);
   font-size: 30px;
   text-align: center;
+  margin: 1px;
+  border-radius: 5px;
+  color: white;
 }
