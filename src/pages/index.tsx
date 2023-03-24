@@ -3,6 +3,7 @@ import Head from "next/head";
 
 <Head>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet" />
 </Head>;
 
 export default function Home() {
@@ -462,6 +463,36 @@ export default function Home() {
         <p className={styles.b}>
           <p className={styles.e}>E</p>
           <p className={styles.d}>1</p>
+        </p>
+      </div>
+      <div className={styles.op1}>
+        <p className={styles.op11}>Player 1</p>
+        <p className={styles.rank}></p>
+        <p className={styles.ranks}>
+          <p>Ranks</p>
+          <p>Score</p>
+          <p>Wins</p>
+        </p>
+        <p className={styles.rank1}></p>
+        <p className={styles.ranks1}>
+          <p>250</p>
+          <p>1000</p>
+          <p>3</p>
+        </p>
+      </div>
+      <div className={styles.op12}>
+        <p className={styles.op112}>Player 2</p>
+        <p className={styles.rank3}></p>
+        <p className={styles.ranks4}>
+          <p>Ranks</p>
+          <p>Score</p>
+          <p>Wins</p>
+        </p>
+        <p className={styles.rank12}></p>
+        <p className={styles.ranks13}>
+          <p>250</p>
+          <p>1000</p>
+          <p>3</p>
         </p>
       </div>
     </div>
